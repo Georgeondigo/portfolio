@@ -2,7 +2,7 @@ import React from 'react';
 import "./services.css";
 import Image1 from '../../assets/service-1.svg';
 import Image2 from '../../assets/service-2.svg';
-import Image3 from '../../assets/service-3.svg';
+import Image3 from '../../assets/service-2.svg';
 
 const data = [
   {
@@ -10,30 +10,41 @@ const data = [
     image: Image1,
     title: "UI/UX design",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Enhance your digital experience with my UI/UX design services. I create user-friendly and visually appealing interfaces through in-depth research and prototyping.",
   },
   {
     id: 2,
     image: Image2,
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Bring your vision to life with my web development services. I build robust, scalable, and secure websites using the latest technologies and best practices ",
   },
   {
     id: 3,
     image: Image3,
     title: "Cloud Computing",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Optimize your business with my cloud computing services. I offer customized cloud solutions for efficiency, scalability, and security, including migration and infrastructure management.",
   },
 ];
 
 const services = () => {
   return (
-   <section className="services container section">
-    <h2 className="section__title">
-      
-    </h2>
+   <section className="services container section" id="services">
+    <h2 className="section__title">Services</h2>
+
+    <div className="service__container grid">
+      {data.map(({id, image, title, description}) =>{
+        return(
+          <div className="services__card" key={id}>
+            <img src={image} alt="" className="services__img" />
+
+            <h3 className="services__title">{title}</h3>
+            <p className="services__description">{description}</p>
+          </div>
+        )
+      })}
+    </div>
    </section>
   )
 }
