@@ -5,9 +5,9 @@ import Home from './components/home/home';
 import About from './components/about/about';
 import Services from './components/services/services';
 import Resume from './components/resume/resume';
-import Portfolio from './components/portfolio/portfolio';
+import Portfolio from './components/portfolio/Portfolio';
 import Pricing from './components/pricing/pricing';
-import Testimonials from './components/testimonials/testimonials';
+// import Testimonials from './components/testimonials/testimonials';
 import Blog from './components/blog/blog';
 import Contacts from './components/contacts/contacts';
 
@@ -22,7 +22,7 @@ const App = () => {
         <Resume />
         <Portfolio />
         <Pricing />
-        <Testimonials />
+       
         <Blog />
         <Contacts />
       </main>
