@@ -8,6 +8,7 @@
 .intro{
     max-width: 540px;
     text-align: center;
+    z-index: 1;
 }
 
 .home__img{
@@ -117,7 +118,7 @@
     left: 36%;
     bottom: 10%;
  }
- s7.{
+ .s7{
     top: 20%;
     right: 25%;
  }
@@ -137,3 +138,9 @@
     bottom: 10%;
     right: 2%;
  }
+
+ @media screen and (max-width: 1024px){
+    .home__social-link{
+        font-size: 1.25rem;
+       }
+  }

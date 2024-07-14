@@ -3,7 +3,7 @@ import "./home.css";
 import Me from "../../assets/avator-george1.png";
 import HeaderSocials from './HeaderSocials';
 import ScrollDown from './ScrollDown';
-
+// import Shapes from './Shapes'
 
 
 const home = () => {
@@ -16,12 +16,12 @@ const home = () => {
 
         <HeaderSocials/>
 
-        <a href="#contact" className="btn">Get in Touch</a>
+        <a href="#contacts" className="btn">Get in Touch</a>
 
         <ScrollDown />
       </div>
 
-     
+  
     </section>
   )
 }

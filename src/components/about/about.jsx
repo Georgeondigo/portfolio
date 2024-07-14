@@ -9,12 +9,12 @@ const about = () => {
     <h2 className="section__title">About Me</h2>
 
     <div className="about__container grid">
-      <img src={About} alt="" className="about__img" />
+      <img src={About} alt="George Ondigo" className="about__img" />
 
       <div className="about__data grid">
         <div className="about__info">
           <p className="about_description">I'm George Ondigo , a passionate Computer Science and  web developer from Nairobi, Kenya. I have rich experience in web site design and building and customization, eager to collaborate on innovative tech projects. </p>
-          <a href="" className="btn">Downlaod CV</a>
+          <a href="/GEORGE OWINO ONDIGO_CV.docx" className="btn">Download CV</a>
         </div>
 
         <div className="about__skills grid">

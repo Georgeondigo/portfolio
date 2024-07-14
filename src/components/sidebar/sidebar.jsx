@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./sidebar.css";
 import Logo from "../../assets/logo.svg";
 
-const sidebar = () => {
+const Sidebar = () => {
+  const [toggle, showMenu] = useState(false);
   return (
-  <aside className='aside'>
+  <>
+  <aside className={toggle ? "aside show-menu" : "aside"}>
     <a href="#home" className='nav__logo'>
       <img src={Logo} alt="" />
     </a>
@@ -62,7 +64,13 @@ const sidebar = () => {
       <span className="copyright">&copy; 2024 - 2025.</span>
     </div>
   </aside>
+
+  
+  <div className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"} onClick={() => showMenu(!toggle)}>
+        <i className="icon-menu"></i>
+  </div>
+  </>
   )
 }
 
-export default sidebar
+export default Sidebar
