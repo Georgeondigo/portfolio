@@ -8,16 +8,16 @@ const pricing = () => {
   return (
     
   <section className="pricing container section">
-    <h2 className="section__title">Pricing plan</h2>
+    <h2 className="section__title">Type of plans</h2>
 
     <div className="pricing__container grid">
       <div className="pricing__item">
         <img src={Image1} alt="" className="pricing__img" />
         <h3 className="pricing__plan">Basic</h3>
-        <p className="pricing__title">A Simple option but powerful to manage your business</p>
+        <p className="pricing__title">A simple yet powerful option for managing your business website, featuring essential tools and email support.</p>
         <p className="pricing__support">Email support</p>
         <h3 className="price">
-          <em>$</em>9 <span>Month</span>
+          <em></em><span></span>
         </h3>
         <a href="" className="btn">Get started</a>
       </div>
@@ -26,10 +26,10 @@ const pricing = () => {
         <span className="badge">Recommended</span>
         <img src={Image2} alt="" className="pricing__img" />
         <h3 className="pricing__plan">Premium</h3>
-        <p className="pricing__title">Unlimited product including app integration and more features</p>
+        <p className="pricing__title">Ideal for websites requiring unlimited product listings, advanced app integration, and comprehensive support on weekdays.</p>
         <p className="pricing__support">Mon-Fri support</p>
         <h3 className="price">
-          <em>$</em>15 <span>Month</span>
+          <em></em> <span></span>
         </h3>
         <a href="" className="btn">Get started</a>
       </div>
@@ -37,10 +37,10 @@ const pricing = () => {
       <div className="pricing__item">
         <img src={Image3} alt="" className="pricing__img" />
         <h3 className="pricing__plan">Ultimate</h3>
-        <p className="pricing__title">A wise option for large companies and individuals</p>
+        <p className="pricing__title">Designed for large companies and individuals needing extensive website support, featuring 24/7 assistance and advanced features.</p>
         <p className="pricing__support">24/7 support</p>
         <h3 className="price">
-          <em>$</em>19 <span>Month</span>
+          <em></em> <span></span>
         </h3>
         <a href="" className="btn">Get started</a>
       </div>
