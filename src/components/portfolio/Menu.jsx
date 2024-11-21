@@ -9,13 +9,13 @@ const Menu = [
     {
       id: 1,
       image: Work1,
-      title: "Project Management Illustration",
+      title: "S.O.Odingo & Co. Advocates Website",
       category: "Design",
     },
     {
       id: 2,
       image: Work2,
-      title: "Guest App Walkthrough Screens",
+      title: "Watama Advocates Website",
       category: "Art",
     },
     {
