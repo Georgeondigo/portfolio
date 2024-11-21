@@ -14,7 +14,7 @@ const about = () => {
       <div className="about__data grid">
         <div className="about__info">
           <p className="about_description">I'm George Ondigo , a passionate Computer Science and  web developer from Nairobi, Kenya. I have rich experience in web site design and building and customization, eager to collaborate on innovative tech projects. </p>
-          <a href="/GEORGE OWINO ONDIGO_CV.docx" className="btn">Download CV</a>
+          <a href="/GEORGE ONDIGO-CV.docx" className="btn">Download CV</a>
         </div>
 
         <div className="about__skills grid">
